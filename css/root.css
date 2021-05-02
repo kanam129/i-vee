@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+}
+
+.header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/daging.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+.mynav {
+    z-index: 2;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+.mynav-scrolled {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/daging.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header-icon {
+    width: 2em; 
+    line-height: 2em; 
+    box-sizing: border-box; 
+    display: inline-block; 
+    border-radius: 2em; 
+    text-align: center;
+}
+
+/* override */
+.popover {
+    background-color:transparent;
+    border: none;
+}
+
+.popover-body {
+    color: #0080c0;
+    transform: translateY(-1em);
+}
+
+.bs-popover-auto[x-placement^="bottom"] > .arrow, .bs-popover-bottom > .arrow {
+    display: none;
+}
